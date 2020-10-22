@@ -1,0 +1,45 @@
+﻿body main {
+    background-image: radial-gradient(circle farthest-side at 90% 65%, #1543F0, #ffffff, #e21e2b);
+}
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+header {
+    background-image: linear-gradient(90deg, #e21e2b, #ffffff, #1543F0);
+}
+header h1{
+    font-weight: bold;
+    color: #1543F0;
+}
+header p{
+    font-size: 20px;
+}
+main h2, h3{
+    color: #1543F0;
+    padding: 10px;
+}
+main p{
+    background-color: #ffffff;
+    padding: 20px;
+}
+nav ul {
+    background-image: url('../images/american-flag-crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 18px;
+    font-size: 24px;
+    display: block;
+    background-color: rgba(21, 67, 240, .7);
+    color: #ffffff;
+}
+nav ul a:hover, a:active, a:focus{
+    color: #1543f0;
+    background-color: rgba(255, 255, 255, .7);
+}
