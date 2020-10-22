@@ -43,3 +43,12 @@ nav ul a:hover, a:active, a:focus{
     color: #1543f0;
     background-color: rgba(255, 255, 255, .7);
 }
+.contactList{
+    text-align: center;
+    display: block;
+}
+.contactList li{
+    list-style-type: none;
+    font-weight: bold;
+    padding: 5px;
+}
