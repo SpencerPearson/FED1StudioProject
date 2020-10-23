@@ -69,6 +69,18 @@
   <ItemGroup>
     <Content Include="CSS\style.css" />
     <Content Include="images\american-flag-crop.jpg" />
+    <Content Include="images\headshots\Brock _Morgan.jpg" />
+    <Content Include="images\headshots\Christopher_Lewis.jpg" />
+    <Content Include="images\headshots\Darren_Bemrose.jpg" />
+    <Content Include="images\headshots\Elizabeth_Larson.jpg" />
+    <Content Include="images\headshots\Ernesto_Castillo.jpg" />
+    <Content Include="images\headshots\Haley_Jennings.jpg" />
+    <Content Include="images\headshots\Kimberly_Cruz.jpg" />
+    <Content Include="images\headshots\Maurice_Davis.jpg" />
+    <Content Include="images\headshots\Rafael_Garcia.jpg" />
+    <Content Include="images\headshots\Rebecca_Bell.jpg" />
+    <Content Include="images\headshots\Tabitha_Worthington.jpg" />
+    <Content Include="images\headshots\Tom_Worr.jpg" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
