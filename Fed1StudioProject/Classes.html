@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-superhero-theme.css" rel="stylesheet" />
     <link href="CSS/style.css" rel="stylesheet" />
     <title></title>
 </head>
@@ -20,7 +22,7 @@
                 <li>
                     <a href="Team.html">Team</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="Classes.html">Classes</a>
                 </li>
                 <li>
@@ -30,29 +32,43 @@
         </nav>
     </header>
     <main>
-        <h2>Class Subjects</h2>
+        <table>
+            <thead> 
+                <tr>
+                   <th colspan="3">Class Subjects</th>
+                </tr>
+            </thead>
         <!-- This section will consist of 6 cards, one for each class subj. The cards will contain an image and some text below the image. -->
-        <article>
+        <tbody>
+            <tr>
             <!-- image here -->
-            <h2>Subject One</h2>
+            <h2>Business Management</h2>
             <p class="card text">This is a wider card with supporting text...</p>
             <!-- image here -->
-            <h2>Subject Two</h2>
+            <h2>Recruiting</h2>
             <p class="card text">This is a wider card with supporting text...</p>
             <!-- image here -->
-            <h2>Subject Three</h2>
+            <h2>Networking</h2>
             <p class="card text">This is a wider card with supporting text...</p>
             <!-- image here -->
-            <h2>Subject Four</h2>
+            <h2>Marketing</h2>
             <p class="card text">This is a wider card with supporting text...</p>
             <!-- image here -->
-            <h2>Subject Five</h2>
+            <h2>Social Media</h2>
             <p class="card text">This is a wider card with supporting text...</p>
             <!-- image here -->
-            <h2>Subject Six</h2>
+            <h2>IT Solutions</h2>
             <p class="card text">This is a wider card with supporting text...</p>
-        </article>
+        </tbody>
+        </table>
         <!-- Class list to be implemented below. Needs to show which: List of instructors? Students? Or Class name, instructor and time of meeting? -->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Business Management Class List</th>
+                </tr>
+            </thead>
+        </table>
     </main>
     <footer>
         Copyright &copy; 2020 TelAmeriCorp All Rights Reserved

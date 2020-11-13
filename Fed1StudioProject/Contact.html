@@ -2,8 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
+
+    <title>TelAmeriCorp Training | Contact Us</title>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-superhero-theme.css" rel="stylesheet" />
     <link href="CSS/style.css" rel="stylesheet" />
-    <title></title>
+
 </head>
 <body>
     <header>
@@ -23,22 +27,61 @@
                 <li>
                     <a href="Classes.html">Classes</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="Contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1 class="contactList">
-            Contact Us
-        </h1>
+    <main class="container">
+        <h1 class="contactList">Contact Us</h1>
         <ul class="contactList">
+            <div class="row">
+                <form action="#" method="get" onsubmit="validateForm(event)">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <input type="text" id="firstName" name="name" class="form-control" placeholder="Enter First Name" />
+                                <span id="invalidFirstName" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <input type="text" id="lastName" name="name" class="form-control" placeholder="Enter Last Name" />
+                                <span id="invalidLastName" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email" />
+                                <span id="invalidEmail" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter Subject" />
+                                <span id="invalidSubject" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-control" placeholder="Enter Message"></textarea>
+                                <span id="invalidMessage" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success" value="Send Message" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
             <li>
-               Phone: <a href="tel:+01-816-857-5309">(816) 857-5309</a>
+                Phone: <a href="tel:+01-816-857-5309">(816) 857-5309</a>
             </li>
             <li>
-               Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a>
+                Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a>
             </li>
             <li>
                 Address: <a href="https://goo.gl/maps/L9qR9tm7aAPPEn3d8" target="_blank">1740 W 92nd St, KCMO 64114</a>
@@ -49,5 +92,10 @@
         Copyright &copy; 2020 TelAmeriCorp All Rights Reserved
         <!-- Will add in social media buttons in footer -->
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Form validation function reference -->
+    <script src="js/validation.js"></script>
 </body>
 </html>

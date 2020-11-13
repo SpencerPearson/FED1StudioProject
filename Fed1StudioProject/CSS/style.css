@@ -47,6 +47,10 @@ nav ul a:hover, a:active, a:focus{
     color: #1543f0;
     background-color: rgba(255, 255, 255, .7);
 }
+nav ul .active {
+        color: #1543f0;
+        background-color: rgba(255, 255, 255, .7);
+}
 .contactList{
     text-align: center;
     display: block;
@@ -75,10 +79,14 @@ section{
     width: 25%;
     padding: 0 10px;
 }
-.card img{
-    float: left;
-    max-width 5%;
+/*.card img{
+    
+    width: 100px;
     height: auto;
+}*/
+
+body {
+    color: #000
 }
 .row{
     margin: 0 -5px;

@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-superhero-theme.css" rel="stylesheet" />
     <link href="CSS/style.css" rel="stylesheet" />
     <title></title>
 </head>
@@ -17,7 +19,7 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="Team.html">Team</a>
                 </li>
                 <li>
@@ -30,12 +32,12 @@
         </nav>
     </header>
     <main>
-        <section id="ourTeam">
+        <section id="ourTeam" class="container" >
             <h1> Leadership </h1>
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <img src="images/headshots/Tabitha_Worthington.jpg" alt="Tabitha Worthington headshot" style="width: 100%" />
+                        <img src="images/headshots/Tabitha_Worthington.jpg" alt="Tabitha Worthington headshot" style="width: 100%" class="thumbnail" />
                         <h3>Tabitha Worthington</h3>
                         <h4>President, CEO</h4>
                         <p class="bio">
@@ -71,9 +73,9 @@
                         <img src="images/headshots/Tom_Worr.jpg" alt="Tom Worr headshot" style="width: 100%" />
                         <h3>Tom Worr</h3>
                         <h4>Instructor Lead</h4>
-                        <p class="bio">
+                        <div class="bio">
                             Tabitha Worthington took the reins as President and CEO of TelAmeriCorp in 2013 after a 27 year career in higher education administration. Tabitha Was born and raised in Greenwich, CT and attended Yale University, graduating with honors in 1982. Tabitha has 2 dalmatians and enjoys astronomy and space photography in her spare time.
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <div class="column">
@@ -81,9 +83,9 @@
                         <img src="images/headshots/Kimberly_Cruz.jpg" alt="Kimberly Cruz headshot" style="width: 100%" />
                         <h3>Kimberly Cruz</h3>
                         <h4>Instructor: Business Management, Recruiting, Networking</h4>
-                        <p class="bio">
+                        <div class="bio">
                             Tabitha Worthington took the reins as President and CEO of TelAmeriCorp in 2013 after a 27 year career in higher education administration. Tabitha Was born and raised in Greenwich, CT and attended Yale University, graduating with honors in 1982. Tabitha has 2 dalmatians and enjoys astronomy and space photography in her spare time.
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <div class="column">
@@ -92,13 +94,12 @@
                         <h3>Darren Bemrose</h3>
                         <h4>
                             Instructor: Marketing, Social Media, IT Solutions<h4>
-                                <p class="bio">
+                                <div class="bio">
                                     Tabitha Worthington took the reins as President and CEO of TelAmeriCorp in 2013 after a 27 year career in higher education administration. Tabitha Was born and raised in Greenwich, CT and attended Yale University, graduating with honors in 1982. Tabitha has 2 dalmatians and enjoys astronomy and space photography in her spare time.
-                                </p>
+                                </div>
                     </div>
                 </div>
             </div>
-            <!-- Build out cards w image of tech instructor lead and 2 tech instructors -->
             <h1> Sales </h1>
             <div class="row">
                 <div class="column">
@@ -133,7 +134,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Build out cards w image of sales lead and 2 salespeople -->
             <h1> Administration </h1>
             <div class="row">
                 <div class="column">
@@ -167,7 +167,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Build out cards w image of operations lead and 2 admin & support staff -->
         </section>
     </main>
     <!-- Below needs to be a sidebar with department nav options on the right side of page -->
