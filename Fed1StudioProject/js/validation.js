@@ -57,7 +57,7 @@
 
         //  regex
         if (!rxpEmail.test(controls['email'].value) && controls['email'].value.length > 0) {
-            validationMessages['invalidEmail'].textContent = "* Please ender a valid email address";
+            validationMessages['invalidEmail'].textContent = "* Please enter a valid email address";
         }
         //  reset email
         if (rxpEmail.test(controls['email'].value) && controls['email'].value.length > 0) {
@@ -72,7 +72,7 @@
         }
         // -------------------------- Message Validation ----------------------------------------
         if (controls['message'].value.length == 0) {
-            validationMessages['invalidMessage'].textContent = "* Please ender a message";
+            validationMessages['invalidMessage'].textContent = "* Please enter a message";
 
         } else {
             validationMessages['invalidMessage'].textContent = "";

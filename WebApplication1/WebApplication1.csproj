@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{16B840C4-9DF0-451D-A49A-0C9FE4A2EFD6}</ProjectGuid>
+    <ProjectGuid>{2969DDA9-71D8-49EA-AFED-D5D6DF555D4B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Fed1StudioProject</RootNamespace>
-    <AssemblyName>Fed1StudioProject</AssemblyName>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,51 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\bootstrap.css" />
-    <Content Include="CSS\bootstrap.min.css" />
-    <Content Include="CSS\style.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="images\american-flag-crop.jpg" />
-    <Content Include="images\headshots\Brock _Morgan.jpg" />
-    <Content Include="images\headshots\Christopher_Lewis.jpg" />
-    <Content Include="images\headshots\Darren_Bemrose.jpg" />
-    <Content Include="images\headshots\Elizabeth_Larson.jpg" />
-    <Content Include="images\headshots\Ernesto_Castillo.jpg" />
-    <Content Include="images\headshots\Haley_Jennings.jpg" />
-    <Content Include="images\headshots\Kimberly_Cruz.jpg" />
-    <Content Include="images\headshots\Maurice_Davis.jpg" />
-    <Content Include="images\headshots\Rafael_Garcia.jpg" />
-    <Content Include="images\headshots\Rebecca_Bell.jpg" />
-    <Content Include="images\headshots\Tabitha_Worthington.jpg" />
-    <Content Include="images\headshots\Tom_Worr.jpg" />
-    <Content Include="images\main-photo-1.jpg" />
-    <Content Include="images\main-photo-2.jpg" />
-    <Content Include="images\TelAmeriCorp-bg-opaque.png" />
-    <Content Include="images\TelAmeriCorp-bg.jpg" />
-    <Content Include="images\telamericorp-logo.jpg" />
-    <Content Include="js\bootstrap.bundle.js" />
-    <Content Include="js\bootstrap.bundle.min.js" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\validation.js" />
-    <Content Include="Team.html" />
-    <Content Include="Contact.html" />
-    <Content Include="Classes.html" />
-    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="CSS\bootstrap.css.map" />
-    <Content Include="CSS\bootstrap.min.css.map" />
-    <Content Include="js\bootstrap.js.map" />
-    <Content Include="js\bootstrap.min.js.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -120,7 +81,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -134,9 +94,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55335</DevelopmentServerPort>
+          <DevelopmentServerPort>63797</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55335/</IISUrl>
+          <IISUrl>http://localhost:63797/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

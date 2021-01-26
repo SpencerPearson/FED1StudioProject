@@ -2,95 +2,116 @@
 <html>
 <head>
     <meta charset="utf-8" />
-
-    <title>TelAmeriCorp Training | Contact Us</title>
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="CSS/bootstrap-superhero-theme.css" rel="stylesheet" />
-    <link href="CSS/style.css" rel="stylesheet" />
-
+    <!-- Adobe fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/qpc3hxi.css">
+    <link href="CSS/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>TelAmeriCorp Training | Contact </title>
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/d362a5fc9b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <!-- Will still need to add logo, twitter, facebook, LinkedIn and nav bars into header -->
-        <h1>
-            TelAmeriCorp Training
-        </h1>
-        <p><em>Corporate Training Solutions For All Skill Levels</em></p>
-        <nav>
+    <header id="header" class="col-md-12">
+        <div class="container-fluid logo">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <a href="/index.html"><img src="images/telamericorp-logo.jpg" alt="TelAmeriCorp Logo" /></a>
+                    <p><em>Corporate Training Solutions For All Skill Levels</em></p>
+                </div>
+                <div class="col-md-4 text-right social-buttons">
+                    <a href="http://www.facebook.com/learnwithus" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/weteachstuff" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="http://www.linkedin.com/learnwithus" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">HOME</a>
                 </li>
                 <li>
-                    <a href="Team.html">Team</a>
+                    <a href="Team.html">TEAM</a>
                 </li>
                 <li>
-                    <a href="Classes.html">Classes</a>
+                    <a href="Classes.html">CLASSES</a>
                 </li>
                 <li class="active">
-                    <a href="Contact.html">Contact</a>
+                    <a href="Contact.html">CONTACT</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="container">
+    <main class="container-fluid col-12">
         <h1 class="contactList">Contact Us</h1>
-        <ul class="contactList">
+        <div class="contactList align-content-center">
             <div class="row">
-                <form action="#" method="get" onsubmit="validateForm(event)">
-                    <div class="col-sm-offset-2 col-sm-8">
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <input type="text" id="firstName" name="name" class="form-control" placeholder="Enter First Name" />
-                                <span id="invalidFirstName" class="invalid"></span>
+                <div class="offset-3 col-md-6">
+                    <form action="#" method="get" onsubmit="validateForm(event)">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="firstName" name="name" class="form-control" placeholder="Enter First Name" />
+                                    <span id="invalidFirstName" class="invalid"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="lastName" name="name" class="form-control" placeholder="Enter Last Name" />
+                                    <span id="invalidLastName" class="invalid"></span>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <input type="text" id="lastName" name="name" class="form-control" placeholder="Enter Last Name" />
-                                <span id="invalidLastName" class="invalid"></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
+                        <div class="col-auto">
                             <div class="form-group">
                                 <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email" />
                                 <span id="invalidEmail" class="invalid"></span>
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-auto">
                             <div class="form-group">
                                 <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter Subject" />
                                 <span id="invalidSubject" class="invalid"></span>
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-auto">
                             <div class="form-group">
                                 <textarea id="message" name="message" class="form-control" placeholder="Enter Message"></textarea>
                                 <span id="invalidMessage" class="invalid"></span>
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-auto">
                             <div class="form-group">
                                 <input type="submit" class="btn btn-success" value="Send Message" />
                             </div>
                         </div>
-                    </div>
-                </form>
+
+                    </form>
+                </div>
             </div>
-            <li>
-                Phone: <a href="tel:+01-816-857-5309">(816) 857-5309</a>
-            </li>
-            <li>
-                Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a>
-            </li>
-            <li>
-                Address: <a href="https://goo.gl/maps/L9qR9tm7aAPPEn3d8" target="_blank">1740 W 92nd St, KCMO 64114</a>
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    Phone: <a href="tel:+01-816-857-5309">(816) 857-5309</a>
+                </li>
+                <li>
+                    Email: <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a>
+                </li>
+                <li>
+                    Address: <a href="https://goo.gl/maps/L9qR9tm7aAPPEn3d8" target="_blank">1740 W 92nd St, KCMO 64114</a>
+                </li>
+            </ul>
+        </div>
     </main>
     <footer>
-        Copyright &copy; 2020 TelAmeriCorp All Rights Reserved
-        <!-- Will add in social media buttons in footer -->
+        <div class="row copyright">
+            <div class="col-md-6">Copyright &copy; 2020 TelAmeriCorp All Rights Reserved</div>
+            <div class="offset-md-3 col-md-3 social-footer">
+                <a href="http://www.facebook.com/learnwithus" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/weteachstuff" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/learnwithus" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap 3.3.7 minified JavaScript -->
